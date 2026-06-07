@@ -2,6 +2,8 @@
 
 A clean React implementation of a PopX mobile app flow.
 
+Live site: https://popx-mobile-app-ui.netlify.app
+
 The app includes a centered mobile interface with four screens:
 
 - Landing page
