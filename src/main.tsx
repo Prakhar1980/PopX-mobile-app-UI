@@ -112,11 +112,11 @@ function SignupScreen({ onNavigate }: NavigateProps) {
       </h1>
 
       <form className="form signup-form" onSubmit={(event) => event.preventDefault()}>
-        <FloatingInput label="Full Name" placeholder="Marry Doe" required />
-        <FloatingInput label="Phone number" placeholder="Marry Doe" required />
-        <FloatingInput label="Email address" placeholder="Marry Doe" type="email" required />
-        <FloatingInput label="Password" placeholder="Marry Doe" type="password" required />
-        <FloatingInput label="Company name" placeholder="Marry Doe" />
+        <FloatingInput label="Full Name" placeholder="" required />
+        <FloatingInput label="Phone number" placeholder="" required />
+        <FloatingInput label="Email address" placeholder="" type="email" required />
+        <FloatingInput label="Password" placeholder="" type="password" required />
+        <FloatingInput label="Company name" placeholder="" />
 
         <fieldset className="agency-field">
           <legend>
