@@ -266,12 +266,62 @@ input {
   width: 76px;
 }
 
-.avatar-wrap img {
+.avatar-face {
+  background: #e8b184;
   border-radius: 50%;
-  display: block;
+  box-shadow: inset 0 -10px 0 rgba(176, 96, 62, 0.18);
   height: 76px;
-  object-fit: cover;
+  overflow: hidden;
+  position: relative;
   width: 76px;
+}
+
+.avatar-hair {
+  background: #171313;
+  border-radius: 48% 52% 42% 58%;
+  height: 44px;
+  left: 4px;
+  position: absolute;
+  top: -3px;
+  width: 69px;
+}
+
+.avatar-hair::after {
+  background: #171313;
+  border-radius: 40px;
+  content: "";
+  height: 58px;
+  left: -3px;
+  position: absolute;
+  top: 12px;
+  width: 16px;
+}
+
+.avatar-eye {
+  background: #241716;
+  border-radius: 50%;
+  height: 5px;
+  position: absolute;
+  top: 39px;
+  width: 5px;
+}
+
+.avatar-eye.left {
+  left: 26px;
+}
+
+.avatar-eye.right {
+  right: 24px;
+}
+
+.avatar-smile {
+  border-bottom: 3px solid #8c2f2b;
+  border-radius: 0 0 20px 20px;
+  bottom: 17px;
+  height: 10px;
+  left: 28px;
+  position: absolute;
+  width: 22px;
 }
 
 .camera-dot {

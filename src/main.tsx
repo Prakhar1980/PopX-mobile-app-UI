@@ -147,8 +147,13 @@ function ProfileScreen() {
 
       <section className="profile-panel">
         <div className="profile-summary">
-          <div className="avatar-wrap">
-            <img src="/avatar.svg" alt="Marry Doe" />
+          <div className="avatar-wrap" aria-label="Marry Doe">
+            <div className="avatar-face">
+              <span className="avatar-hair" />
+              <span className="avatar-eye left" />
+              <span className="avatar-eye right" />
+              <span className="avatar-smile" />
+            </div>
             <span className="camera-dot" aria-hidden="true">
               ●
             </span>

@@ -1,6 +1,6 @@
 # PopX Mobile App UI
 
-A clean React implementation of the PopX mobile app flow from the Adobe XD design.
+A clean React implementation of a PopX mobile app flow.
 
 The app includes a centered mobile interface with four screens:
 
@@ -58,4 +58,4 @@ Recommended settings:
 
 ## Project Goal
 
-The goal of this project was to recreate the given mobile UI as closely as possible while keeping the code neat, readable, and easy to maintain.
+The goal of this project was to recreate the given mobile UI closely while keeping the code neat, readable, and easy to maintain.
